@@ -4,7 +4,7 @@
 body { 
     padding-top: 70px;
 }
-table {
+form {
     width:100%;
     text-align: center;
     min-height:400px;
@@ -17,11 +17,8 @@ table {
 .dropdown-menu{
 
 }
-#showtab, #tab1, #tab2, td, th{
+#showtab{
     height:50%;
-}
-th{
-    text-align:center;
 }
 #space{
     min-height:30px;
