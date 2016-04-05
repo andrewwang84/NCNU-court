@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NCNU-Court</title>
+    <!-- 最新編譯和最佳化的 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- 選擇性佈景主題 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://yanroo84.github.io/NCNU-court/"><image alt="brand" height="20" src="img/icon.png"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="wed.html">籃球 <span class="sr-only">(current)</span></a></li>
+            <li><a href="volly.html">排球</a></li>
+            <li><a href="tennis.html">網球</a></li>
+            <li><a href="tableten.html">桌球</a></li>
+            <li><a href="bat.html">羽球</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span>選時段</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="tues.html">5~8</a></li>
+                <li><a href="tues2.html">8~11</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span>選星期</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="mon.html">Monday</a></li>
+                <li><a href="tues.html">Tuesday</a></li>
+                <li><a href="wed.html">Wednesday</a></li>
+                <li><a href="thur.html">Thursday</a></li>
+                <li><a href="fri.html">Friday</a></li>
+                <li><a href="sat.html">Saturday</a></li>
+                <li><a href="sun.html">Sunday</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+	<div class="container">
+        <div class="row" id="clock">
+            <span class="clock"></span>
+            <span class="label label-success">星期二-8~11</span>
+        </div>
+        <div class="row" id="space">
+        </div>
+        <div class="row" id="showtab">
+            <div class="table-responsive col-md-6" id="tab1">
+                <table class="table-bordered">
+                    <thead>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>E</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>公行(男)</td>
+                            <td>觀餐(男)</td>
+                            <td>應光(男)</td>
+                            <td><button id="b1" type="button" class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" onClick="toggleText(this.id);">Empty</button></td>
+                        </tr>
+                        <tr>
+                            <td>公行(男)</td>
+                            <td>觀餐(男)</td>
+                            <td>應光(男)</td>
+                            <td><button id="b2" type="button" class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" onClick="toggleText(this.id);">Empty</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-responsive col-md-6" id="tab2">
+                <table class="table-bordered">
+                    <thead>
+                        <th>新一</th>
+                        <th>新二</th>
+                        <th>新三</th>
+                        <th>新四</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>咨人(男)</td>
+                            <td>外文(女)</td>
+                            <td>原專(男)</td>
+                            <td><button id="b3" type="button" class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" onClick="toggleText(this.id);">Empty</button></td>
+                        </tr>
+                        <tr>
+                            <td>土木(男)</td>
+                            <td>外文(女)</td>
+                            <td>原專(男)</td>
+                            <td><button id="b4" type="button" class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" onClick="toggleText(this.id);">Empty</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<p class="text-muted">
+				&copy;2015 行銷管理第5組-王彥儒，蘇彥昀，林維倫</br>
+                The Essential theme is developed, enhanced and maintained by Andrew Wang 
+			</p>
+		</div>
+	</footer>
+    <!-- jQuery (Bootstrap 所有外掛均需要使用) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新編譯和最佳化的 JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/dominate.js"></script>
+</body>
+</html>

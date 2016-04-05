@@ -1,0 +1,15 @@
+*{
+    font-family: "·L³n¥¿¶ÂÅé","Microsoft JhengHei",'Source Sans Pro', sans-serif;
+}
+body { 
+    padding-top: 70px; 
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#main{
+    color:white;
+    background:url('../img/back.gif');
+}

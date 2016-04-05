@@ -1,0 +1,28 @@
+*{
+    font-family: "·L³n¥¿¶ÂÅé","Microsoft JhengHei",'Source Sans Pro', sans-serif;
+}
+body { 
+    padding-top: 70px;
+}
+table {
+    width:100%;
+    text-align: center;
+    min-height:400px;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.dropdown-menu{
+
+}
+#showtab, #tab1, #tab2, td, th{
+    height:50%;
+}
+th{
+    text-align:center;
+}
+#space{
+    min-height:30px;
+}
