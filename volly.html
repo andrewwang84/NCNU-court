@@ -1,1 +1,107 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>NCNU-Court</title> <!-- 最新編譯和最佳化的 CSS --> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> <!-- 選擇性佈景主題 --> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"> <link rel="stylesheet" href="css/clock.css"> <link rel="stylesheet" href="css/style.css"> <script src='https://www.google.com/recaptcha/api.js'></script> </head> <body> <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> <div class="container-fluid"> <!-- Brand and toggle get grouped for better mobile display --> <div class="navbar-header"> <a class="navbar-brand" href="http://yanroo84.github.io/NCNU-court/"><image alt="brand" height="20" src="img/icon.png"></a> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> </div> <!-- Collect the nav links, forms, and other content for toggling --> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav"> <li><a href="wed.html">籃球</a></li> <li class="active"><a href="volly.html">排球 <span class="sr-only">(current)</span></a></li> <li><a href="tennis.html">網球</a></li> <li><a href="tableten.html">桌球</a></li> <li><a href="bat.html">羽球</a></li> </ul> <ul class="nav navbar-nav navbar-right"> <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span>選時段</a> <ul class="dropdown-menu" role="menu"> <li><a href="thur.html">5~7</a></li> <li><a href="thur2.html">7~11</a></li> </ul> </li> </ul> <ul class="nav navbar-nav navbar-right"> <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span>選星期</a> <ul class="dropdown-menu" role="menu"> <li><a href="mon.html">Monday</a></li> <li><a href="tues.html">Tuesday</a></li> <li><a href="wed.html">Wednesday</a></li> <li><a href="thur.html">Thursday</a></li> <li><a href="fri.html">Friday</a></li> <li><a href="sat.html">Saturday</a></li> <li><a href="sun.html">Sunday</a></li> </ul> </li> </ul> </div><!-- /.navbar-collapse --> </div><!-- /.container-fluid --> </nav> <div class="container"> <div class="row" id="clock"> <span class="clock"></span> <span class="label label-success">星期三-5~7</span> </div> <div class="row" id="space"> </div> <div class="row" id="showtab"> <div class="g-recaptcha" data-sitekey="6LfBohwTAAAAAM6ppM6MOpciKa91qVv8LLOgvYhg"></div> </div> </div> <footer class="footer"> <div class="container"> <p class="text-muted"> &copy;2015 行銷管理第5組-王彥儒，蘇彥昀，林維倫</br> The Essential theme is developed, enhanced and maintained by Andrew Wang </p> </div> </footer> <!-- jQuery (Bootstrap 所有外掛均需要使用) --> <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 最新編譯和最佳化的 JavaScript --> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> <script src="js/clock.js"></script> <script src="js/dominate.js"></script> </body> </html>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>NCNU-Court</title> 
+    <!-- 最新編譯和最佳化的 CSS --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> 
+    <!-- 選擇性佈景主題 --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"> 
+    <link rel="stylesheet" href="css/clock.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src='https://www.google.com/recaptcha/api.js'></script> 
+</head> 
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://yanroo84.github.io/NCNU-court/"><image alt="brand" height="20" src="img/icon.png"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav"> 
+            <li><a href="wed.html">籃球</a></li> 
+            <li class="active"><a href="volly.html">排球 <span class="sr-only">(current)</span></a></li> 
+            <li><a href="tennis.html">網球</a></li>
+            <li><a href="tableten.html">桌球</a></li>
+            <li><a href="bat.html">羽球</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span>選時段</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="sun.html">5~8</a></li>
+                <li><a href="sun2.html">8~11</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span>選星期</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="mon.html">Monday</a></li>
+                <li><a href="tues.html">Tuesday</a></li>
+                <li><a href="wed.html">Wednesday</a></li>
+                <li><a href="thur.html">Thursday</a></li>
+                <li><a href="fri.html">Friday</a></li>
+                <li><a href="sat.html">Saturday</a></li>
+                <li><a href="sun.html">Sunday</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+	<div class="container">
+        <div class="row" id="clock">
+            <span class="clock"></span>
+            <span class="label label-success">星期日-8~11</span>
+        </div>
+        <div class="row" id="space">
+        </div>
+        <div class="row" id="showtab">
+            <form role="form">
+              <div class="form-group">
+                <label for="exampleInputEmail1">電子郵件</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="輸入電子郵件">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">密碼</label>
+                <input type="密碼" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <div class="g-recaptcha" data-sitekey="6LfBohwTAAAAAM6ppM6MOpciKa91qVv8LLOgvYhg"></div>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default">送出</button>
+            </form>
+        </div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<p class="text-muted">
+				&copy;2015 行銷管理第5組-王彥儒，蘇彥昀，林維倫</br>
+                The Essential theme is developed, enhanced and maintained by Andrew Wang 
+			</p>
+		</div>
+	</footer>
+    <!-- jQuery (Bootstrap 所有外掛均需要使用) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新編譯和最佳化的 JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/dominate.js"></script>
+</body>
+</html>
